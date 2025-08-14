@@ -1,0 +1,308 @@
+/*navber desgin starts here*/
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+
+
+.logo{
+
+    text-align: left;
+}
+
+
+
+.heding h1{
+
+text-align: right;
+
+
+}
+
+
+.nevber .main{
+
+
+flex-direction: row;
+justify-content: flex-end;
+
+}
+ 
+.nevber .main a{
+
+
+margin: 18px 5px;
+padding: 5px 10px;
+background-color: transparent;
+}
+
+/*navber desgin ends here*/
+
+
+/* profile starts here */
+
+
+.profile{
+
+position: relative;
+text-align: center;
+
+}
+
+
+
+.profile .top-weather-icon{
+
+
+right: 100px;
+
+width: 100px;
+transition: transform 2s width 2s;
+}
+
+.profile .top-weather-icon:hover{
+width:120px ;
+transform: rotate(360deg);
+
+}
+
+
+
+
+.profile-decs p{
+
+padding: 30px;
+margin: 0 auto ;
+color:gray;
+
+width: 50%;
+margin-bottom: 10px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.profile .bottom-weather-icon{
+
+
+left: 70px;
+bottom: 20px;
+width:100px ;
+transition: transform 2s width 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+
+transform: rotate(360deg);
+width: 120px;
+}
+
+
+
+/* profile ends here */
+
+/* about me style starts here */
+
+.aboutme-image{
+margin-top: 120px;
+}
+
+
+.aboutme-image img{
+
+width: 240px;
+height: 280px;
+
+}
+
+.about-me p{
+
+text-align: left;
+
+stroke-width: +;}
+/*about me style ends here */
+
+
+
+
+/* profesional-experince start here */
+
+
+.professional-experince{
+
+padding: 1% 5%;
+
+
+}
+
+
+
+
+
+.special{
+padding: 2px 2px;
+
+}
+
+
+/* profesional-experince ends here */
+
+
+
+
+
+ /* achievment-cotact-starts-here */
+
+
+.achievment{
+
+padding-right: 50px;
+text-align: left;
+}
+
+
+
+
+
+
+
+
+.achievment-contact button {
+width: 150px;
+
+}
+
+
+.contact-list {
+
+
+position: relative;
+
+
+}
+
+
+.media-btn{
+position: absolute;
+
+left: 50%;
+top:50%;
+
+transform: translate(-50%,50%);
+}
+
+
+ /* achievment-cotact-ends-here */
+
+
+
+
+
+
+/* footer starts here */
+
+
+
+.footer{
+
+margin-top: 12px;
+
+
+}
+
+
+.footer-menu a{
+
+
+display: inline;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer starts here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

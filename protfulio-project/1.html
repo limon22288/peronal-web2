@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS table</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,400;1,100&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Satisfy&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<!--commant-mobail-->
+<link rel="stylesheet" href="limon.css">
+
+
+<!--commant-leptop-->
+<link rel="stylesheet" href="leptop.css" media="screen and (min-width:992px)">
+
+
+
+<style>
+</style>
+</head>
+<body>
+
+<!--nabver-starts from here-->
+
+<div class="nevber">
+
+<div class="logo col-2">
+
+<img src="images/logo.png">
+
+
+</div>
+
+
+
+<div class="heding col-4">
+
+<h1>Limon Hasan</h1>
+
+
+</div>
+
+
+
+<div class="main col-6">
+
+<a href="#">Home</a>
+<a href="#about-me-id">About Me</a>
+<a href="#skill-2">Skills</a>
+ <a href="#contact-id1">Contact Me</a> 
+</div>
+</div>
+
+<!--nabver-ends from here-->
+
+<!--profile starts here-->
+
+<div class="profile">
+
+<img class="top-weather-icon" src="images/image/cloudy.png">
+
+<div class="profile-decs">
+<h1>I am a Computer Teacher<br>&<br>Web Developer</h1>
+<p>Bleu aux des ô des je les de je hippocampes. Mer tu quand et sidéraux béni, sapin pourrit j'ai qui dévorant nuit, rut balottant - descendaient bateau. Bercé de de.</p>
+</div>
+<img class="bottom-weather-icon" src="images/image/cloudy.png">
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+<!--profile starts here-->
+
+<!-- about me starts here -->
+
+<div class="about-me" id="about-me-id">
+<h2>About Me</h2>
+<hr class="dotted-hr">
+<div class="aboutme-image col-6">
+
+<img src="data:image/jpeg;base64,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">
+</div>
+
+<div class="aboutme-decs col-6">
+<p>Choient oiseau lames quand voulu courus de ces nasses, nacreux des les arbres subi que les juillets, ô seves qu'on.</p>
+<p>Liebe der die so ist um lied im und, halbverklungnen ihr jenem mich trüben der. Macht ich schauer steigt hören.</p>
+
+
+
+<hr class="aboutme-hr">
+<p>Name: Limon</p>
+<hr class="aboutme-hr">
+<p>Address: Dhaka,Bangladesh</p>
+<hr class="aboutme-hr">
+<p><a href="Mailto:limonlimon6600@gmail.com">limonlimon6600@gmail.com</a></p>
+<hr class="aboutme-hr">
+<p><a href="tel:01907187625">01907187625</a></p>
+<hr class="aboutme-hr">
+<p><a href="website:https://www.studywithanis.com/" target="_blank">www.studywithanis.com</a></p>
+<hr class="aboutme-hr">
+
+<p>
+
+<a href="https://www.flaticon.com/free-icons/weather" target="_blank">
+
+<button class="aboutme-button">Downlod CV</button>
+</a>
+</p>
+
+</div>
+
+</div>
+
+<!-- about me ends here -->
+
+
+
+<!-- professional-experince start her -->
+
+
+<div class="professional-experince">
+
+<div class="work-experience col-4">
+
+<div class="card">
+
+
+
+<div class="card-icon">
+
+<img class="refk-img" src="images/suitcase.png">
+</div>
+
+
+<div class="card-title">
+<h2>WORK EXPERIENCE</h2>
+
+</div>
+
+
+
+<div class="card-decs">
+
+<ol>
+
+<li>
+<strong>Lecture of Information & Communiation Technology</strong><br>
+
+01/05/2025-01/08/2017 <br>
+Ramjibon smrity high school & Madhupur Govt College<br>
+Kanaighat, sylhet, 3180 sylet (Bangladesh)<br>
+
+</li>
+<hr>
+
+<li>
+
+<strong>Lecture of CSE Department</strong><br>
+1/0/11/2017-06/04/2018<br>
+Sylhet Engineering College<br>
+Tilgarh,Alurtol Road,3100 Sylhet(Bangladesh)<br>
+
+</li>
+<hr>
+<li>
+
+
+<strong>Lecture of Information & Communication Technology</strong><br>
+
+01/07/2018-11/11/2018<br>
+Jaflong Valley Boarding School<br>
+Jaflong,3151 Sylhet (Bangladesh)<br>
+</li>
+
+<hr>
+
+<li>
+
+<strong>Youtobe, Lecture of CSE & ICT</strong>
+
+28/07/2010-Running<br>
+1,94,000 Online Student<br>
+1500,Videos on 17 different computer Science Subjects
+</li>
+
+</ol>
+
+    
+
+</div>
+</div>
+</div>
+
+<div class="education-experience col-4">
+
+
+<div class="card">
+
+
+
+<div class="card-icon">
+
+<img class="refk-img" src="images/open-book.png">
+</div>
+
+
+<div class="card-title">
+<h2>EDUCATION AND TRAINING</h2>
+
+</div>
+
+
+
+<div class="card-decs">
+
+
+<ol>
+
+<li>
+<strong>Lecture of Information & Communiation Technology</strong><br>
+
+01/05/2025-01/08/2017 <br>
+Ramjibon smrity high school & Madhupur Govt College<br>
+Kanaighat, sylhet, 3180 sylet (Bangladesh)<br>
+<a href="https://www.studywithanis.com/">www.studywithanis.com</a><br>
+</li>
+<hr>
+
+<li>
+
+<strong>Lecture of CSE Department</strong><br>
+1/0/11/2017-06/04/2018<br>
+Sylhet Engineering College<br>
+Tilgarh,Alurtol Road,3100 Sylhet(Bangladesh)<br>
+<a href="https://www.google.com/">www.google.com</a><br>
+Result:A(3.92/4.00)<br>
+
+</li>
+<hr>
+<li>
+
+
+<strong>Lecture of Information & Communication Technology</strong><br>
+
+01/07/2018-11/11/2018<br>
+Jaflong Valley Boarding School<br>
+Jaflong,3151 Sylhet (Bangladesh)<br>
+
+<a href="https://www.google.com/">www.google.com</a>
+
+</li>
+</ol>
+
+</div>
+</div>
+</div>
+
+
+<div class="skills col-4" id="skill-2">
+
+<div class="card">
+
+
+
+<div class="card-icon">
+
+<img class="refk-img" src="images/skill.png">
+</div>
+
+
+<div class="card-title">
+<h2>Skills</h2>
+
+</div>
+
+<div class="card-decs">
+
+<div class="special">
+
+<ul>
+<li class="html">HTML</li>
+<li class="css">CSS</li>
+<li class="bootstrap">BOOTSTRAP</li>
+<li class="javascript">JAVASCRIPT</li>
+<li class="jquery">JQUERY</li>
+<li class="node">NODE.JS</li>
+<li class="express">EXPRESS.JS</li>
+<li class="gitub">GITHUB</li>
+<li class="react">REACT.JS</li>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- professional-experince ends her -->
+
+
+<!-- achievment-cotact-starts-here -->
+
+
+
+
+<div class="achievment-contact">
+
+<div class="achievment col-4">
+
+<h2>ACHIEVMENT</h2>
+<hr class="dotted-hr">
+<p>1. Lebt äolsharfe und drängt macht längst mit fühlt blick gedränge sang, herz es und die die auf wird die geisterreich.</p>
+
+<p>2. Lebt äolsharfe und drängt macht längst mit fühlt blick gedränge sang, herz es und die die auf wird die geisterreich.</p>
+
+<p>3. Lebt äolsharfe und drängt macht längst mit fühlt blick gedränge sang, herz es und die die auf wird die geisterreich.</p>
+
+<p>4. Lebt äolsharfe und drängt macht längst mit fühlt blick gedränge sang, herz es und die die auf wird die geisterreich.</p>
+
+</div>
+
+
+
+<div class="contact col-4" id="contact-id1">
+
+<h2>CONTACT ME</h2>
+<hr class="dotted-hr">
+<form action="mailto:limonlimon6600@gmail.com" method="post" enctype="text/plain">
+<p><input type="text" placeholder="Your Name" name="Name"></p>
+
+
+<p><input type="email" placeholder="Your Email" name="email"></p>
+
+<textarea name="message" id="" placeholder="Your Message Here" cols="30" rows="10"></textarea>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+
+</form>
+</div>
+
+
+<div class="contact-list col-4">
+
+
+<h2>More Ways to Contact</h2>
+<hr class="dotted-hr">
+
+<div class="media-btn">
+
+<button class="btn" onclick="window.open('https://www.youtube.com/')" class="request-callback"><i class="fab fa-youtube" style="color: #ff0000;"></i></button>
+<button class="btn" onclick="window.open('https://www.facebook.com/')" class="request-callback"><i class="fab fa-facebook-f" style="color: #1877f2;"></i></button>
+<button class="btn" onclick="window.open('https://abadis.ir/entofa/worldwide/')" class="request-callback"><i class="fas fa-globe" style="color: #4cafef;"></i></button>
+<button class="btn" onclick="window.open('https://teams.live.com/free')" class="request-callback"><i class="fab fa-skype" style="color: #00aff0;"></i></button>
+<button class="btn" onclick="window.open('https://www.linkedin.com/')" class="request-callback"><i class="fab fa-linkedin-in" style="color: #0a66c2;"></i></button>
+<button class="btn" onclick="window.open('https://github.com/')" class="request-callback"><i class="fab fa-github" style="color: #333;"></i></button>
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+<!-- achievment-cotact-ends-here -->
+
+
+
+
+
+<!-- footer starts here -->
+
+<div class="footer">
+
+<div class="footer-menu col-6">
+
+<a href="#">Home</a>
+<a href="#about-me-id">About Me</a>
+<a href="#skill-2">Skills</a>
+ <a href="#contact-id1">Contact Me</a> 
+
+</div>
+
+
+<div class="footer-decs col-6">
+
+
+&copy; Limon 2025. Developed with <span style="color: #ff0000; font-size: 1rem;">❤</span> by Limon.
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+<!-- footer ends here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
